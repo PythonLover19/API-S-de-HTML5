@@ -1,0 +1,126 @@
+body {  
+  
+  background-color: #ff99ff; 
+  align-items: center;  
+  height: 100%;
+  width: 100%;
+}
+
+
+#contenedor{  
+  display:flex;
+  align-items: center;
+  justify-content: center; 
+
+}
+
+video {
+  border: 2px solid black;
+  box-shadow: 0 0 10px #000000;
+  margin: 5px 5px 5px 5px;
+}
+
+
+
+#controles{  
+  display: flex;
+  justify-content: center; 
+  margin: 5px 5px 5px 5px; 
+}
+
+.miBoton{
+    background-color: #0B610B;
+    background-image: linear-gradient(top, #ffffff, #a3d5d3);
+    background-image: -moz-linear-gradient(top, #ffffff, #a3d5d3);
+    background-image: -webkit-linear-gradient(top, #ffffff, #a3d5d3);
+    background-image: -o-linear-gradient(top, #ffffff, #a3d5d3);
+    background-image: -ms-linear-gradient(top, #ffffff, #a3d5d3);
+    border: 1px solid #000000;
+    padding: 2px;
+    border-radius: 4px;
+    width: 80px;
+    margin: 0 1px 5px 5px; 
+    box-shadow: 0 0 10px #000000;
+}
+
+button:hover {
+  background-color: #800060;
+}
+
+
+.neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #ff00bf,
+      0 0 10px #ff00bf,
+      0 0 21px #ff00bf,
+      0 0 42px #800060,
+      0 0 82px #800060,
+      0 0 92px #800060,
+      0 0 102px #800060,
+      0 0 151px #800060;
+  }
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 6.2rem;
+  animation: pulsate 0.11s ease-in-out infinite alternate;     
+}
+
+
+
+
+input {
+        display: block;
+        align-items: center;
+        justify-content: center; 
+        background-color: white;
+
+}
+
+.info {
+        color: white;
+        background-color: #ff4dd2;
+        border: 1px solid #000000;
+        padding: 2px;
+        border-radius: 7px;
+        width: 25%;
+        height: 30%
+        margin: 0 1px 5px 5px; 
+        box-shadow: 0 0 10px #000000;           
+}
+
+.error {
+        color: white;
+        background-color: #ff4dd2;
+        border: 1px solid #000000;
+        padding: 2px;
+        border-radius: 7px;
+        width: 25%;
+        height: 30%
+        margin: 0 1px 5px 5px; 
+        box-shadow: 0 0 10px #000000;
+}
+
+
+
+#myProgress {
+  width: 100%;
+  background-color: #f00ac6;
+  border-radius: 20px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+#myBar {
+  width: 10%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+
+}
