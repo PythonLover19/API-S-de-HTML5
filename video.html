@@ -1,0 +1,44 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/video.css">
+	
+</head>
+<body>
+
+
+<body>
+
+
+	
+    <h1 class="neonText">Reproductor de Video</h1>
+     
+	 
+    <div id ="contenedor">     
+	 			<div id="message">
+					<input type="file" accept="video/*" onclick="move()"/>
+										
+						<div id="myProgress">
+							<div id="myBar">0%</div>
+						</div>						
+				</div>				
+	</div>
+
+	<br>
+	<div id ="contenedor">
+		<video controls id="video" autoplay></video>
+	</div> 
+
+
+	<div id ="controles">
+		
+			 <button class="miBoton" onclick="document.getElementById('video').play();"> &#9658; </button>
+			 <button class="miBoton" onclick="document.getElementById('video').pause();"> &#9724; </button>
+			 <button class="miBoton" onclick="document.getElementById('video').volume += 0.1;">&#8853;</button>
+			 <button class="miBoton" onclick="document.getElementById('video').volume -= 0.1;">&#8854;</button>
+			 <button class="miBoton" onclick="document.getElementById('video').currentTime = 0;">&#8634;</button>			
+		
+	</div>
+
+</body>
+<script type="text/javascript" src="js/video.js"></script>
+</html>
